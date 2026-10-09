@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>12</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <PackageId>EgyptKit</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Tameem Yaser</Authors>
+    <Description>Egyptian mobile numbers, national IDs, governorates and shipping zones, Arabic text normalization, slugs, and amounts in Arabic words for .NET.</Description>
+    <PackageTags>egypt;arabic;phone;national-id;governorates;tafqeet;slug;validation</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/sept729/EgyptKit</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

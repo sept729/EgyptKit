@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBC5CB12-7B66-4BDC-B93D-7A57C5D29823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptKit", "src\EgyptKit\EgyptKit.csproj", "{30D1FCEC-4530-43C9-B2A2-20F73A830392}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9B249BBD-F84F-4984-A277-B4613A08463A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptKit.Tests", "tests\EgyptKit.Tests\EgyptKit.Tests.csproj", "{39696414-98B3-450D-93FA-8C392D05FDEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D0E8C1D1-9C7B-4A71-B89E-8628094E0AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptKit.Sample", "samples\EgyptKit.Sample\EgyptKit.Sample.csproj", "{FC427224-0296-4B3D-8F1D-659FBC489240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30D1FCEC-4530-43C9-B2A2-20F73A830392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D1FCEC-4530-43C9-B2A2-20F73A830392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D1FCEC-4530-43C9-B2A2-20F73A830392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D1FCEC-4530-43C9-B2A2-20F73A830392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39696414-98B3-450D-93FA-8C392D05FDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39696414-98B3-450D-93FA-8C392D05FDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39696414-98B3-450D-93FA-8C392D05FDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39696414-98B3-450D-93FA-8C392D05FDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC427224-0296-4B3D-8F1D-659FBC489240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC427224-0296-4B3D-8F1D-659FBC489240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC427224-0296-4B3D-8F1D-659FBC489240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC427224-0296-4B3D-8F1D-659FBC489240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30D1FCEC-4530-43C9-B2A2-20F73A830392} = {EBC5CB12-7B66-4BDC-B93D-7A57C5D29823}
+		{39696414-98B3-450D-93FA-8C392D05FDEE} = {9B249BBD-F84F-4984-A277-B4613A08463A}
+		{FC427224-0296-4B3D-8F1D-659FBC489240} = {D0E8C1D1-9C7B-4A71-B89E-8628094E0AA1}
+	EndGlobalSection
+EndGlobal
